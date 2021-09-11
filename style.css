@@ -283,6 +283,7 @@
   #home .image img {
     position: relative;
     right: 2.93rem;
+    
   }
   
   #home .image img,
@@ -368,6 +369,11 @@
   }
   
   /*====  TESTIMONIALS ============================ */
+  #testimonials {
+    position: relative;
+    overflow: hidden;
+  }
+
   #testimonials {
     background: white;
   }
