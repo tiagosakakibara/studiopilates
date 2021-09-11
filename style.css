@@ -663,4 +663,18 @@
     }
   }
   /* medium devices: 767 > */
-  
+  @media (min-width: 767px) {
+    :root {
+        --title-font-size: 2.25rem;
+        --subtitle-font-size: 1.125rem;
+    }
+
+    /* services */
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+
+      
+
+  }
+     
