@@ -93,7 +93,7 @@
     );
   }
   
-  /*====  LAYOUT ============================ */
+  /*====  LAYOUT ===================================== */
   .container {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
@@ -141,7 +141,7 @@
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15);
   }
   
-  /*====  LOGO ============================ */
+  /*====  LOGO =========================================== */
   .logo {
     font: 700 1.31rem var(--title-font);
     color: var(--title-color);
@@ -155,7 +155,7 @@
     color: var(--body-color);
   }
   
-  /*====  NAVIGATION ============================ */
+  /*====  NAVIGATION ========================================== */
   nav {
     height: var(--header-height);
     display: flex;
@@ -256,7 +256,7 @@
     top: 1.5rem;
   }
   
-  /*====  HOME ============================ */
+  /*====  HOME ========================================= */
   #home {
     overflow: hidden;
   }
@@ -305,7 +305,7 @@
     margin-bottom: 2rem;
   }
   
-  /*====  ABOUT ============================ */
+  /*====  ABOUT ============================================= */
   #about {
     background: white;
   }
@@ -331,6 +331,7 @@
   
   #about .image img {
     position: relative;
+    
   }
   
   #about .image img,
@@ -674,9 +675,8 @@
     /* services */
     .cards {
         grid-template-columns: 1fr 1fr 1fr;
-      }
-
-      
+    }
+ 
 
   }
      
