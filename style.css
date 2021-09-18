@@ -368,6 +368,10 @@
     font-size: 1.5rem;
     margin-bottom: 0.75rem;
   }
+
+  .card .image img {
+      border-radius: 0.9rem;
+  }
   
   /*====  TESTIMONIALS ============================ */
   #testimonials {
