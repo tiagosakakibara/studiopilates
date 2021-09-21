@@ -537,6 +537,10 @@
     opacity: 1;
     transform: translateY(0);
   }
+
+
+  /* large devices: 1023 > */
+  /* large devices: 992 > */
   
   /*========= MEDIA QUERIES =========*/
 /* medium devices: 767 > */
@@ -564,7 +568,6 @@
     margin-right: auto;
   }
 
-
   /* about Sobre */
   #about .container {
     margin: 0 auto;
@@ -579,22 +582,17 @@
 }
 
 /* testimonials */
-#testimonials .container {
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  overflow: hidden;
-}
-
-
+  #testimonials .container {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+  }
   
-
   /* services */
   .cards {
     grid-template-columns: 1fr 1fr ;
   }
-
-
 }
 
  /* extra large devices: 1200 > */
@@ -728,15 +726,6 @@
   }
 }
 
-  /* large devices: 1023 > */
-  
-
-
-  /* large devices: 992 > */
-  
-  
-  /* medium devices: 767 > */
-  
  
 
   
